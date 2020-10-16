@@ -7,4 +7,6 @@ def wasserstand_list(request):
     print("*"*100)
     print(wasserstand)
     print("*"*100)
-    return render(request,'water/wasserstand_list.html', {'stands': wasserstand})
+    return render(request,'water/template.html', {'stands': wasserstand})
+
+    #return render(request,'water/wasserstand_list.html', {'stands': wasserstand})
