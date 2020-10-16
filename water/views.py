@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def wasserstand_list(request):
+    return render(request,'water/wasserstand_list.html', {})
